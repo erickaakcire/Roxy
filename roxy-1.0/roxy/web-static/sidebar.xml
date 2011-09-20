@@ -1,0 +1,12 @@
+<div id="sidebar">
+	<div class="section-header">Links</div>
+	<div class="section">
+		<a href="/">Roxy Home</a><br />
+		<a href="/about">About Roxy</a><br />
+		<a href="/history">History &amp; Blacklist</a><br />
+		<a href="/using">Using Roxy</a><br />
+		<a href="/setup">Setup</a><br />
+		<a href="/faq">Frequently Asked Questions</a><br />
+		<a href="http://www.ericka.cc/btc/">Study Details</a><br />
+	</div>
+</div>

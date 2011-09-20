@@ -1,0 +1,148 @@
+<html>
+	<head>
+		<title>Roxy: Data Explorer</title>
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="/jquery-ui/css/smoothness/jquery-ui-1.8.2.custom.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="/jquery-ui/js/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="/jquery-ui/js/jquery-ui-1.8.2.custom.min.js"></script>
+		<script type="text/javascript" src="jquery.corner.js"></script>
+		<script type="text/javascript" src="roxy.js"></script>
+		<script type="text/javascript" src="search.js"></script>
+	</head>
+	<body>
+		<center>
+		<div id="content">
+			<table>
+				<tr>
+					<td colspan="2">
+						<div id="title">
+							Roxy: Data Explorer
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table>
+							<tr>
+								<td>
+									<div class="section-header">
+										Search Parameters
+									</div>
+									<div class="section">
+ 										<table class="search"><form action="#">
+											<tr>
+												<td class="search-field" style="vertical-align: middle;">Find:</td>
+												<td class="search-value"><input type="text" id="find" class="search" placeholder="Search Terms" /></td>
+											</tr>
+											<tr>
+												<td class="search-field">In Fields:</td>
+												<td class="search-value">
+													<input type="checkbox" id="body_check" name="body" /> Body<br />
+													<input type="checkbox" id="title_check" name="title" /> Title<br />
+													<input type="checkbox" id="search_check" name="search" /> Search Terms
+												</td>
+											</tr>
+											<tr>
+												<td class="search-field">Username:</td>
+												<td class="search-value">
+													<input type="text" id="user_constraint" placeholder="Username" />
+												</td>
+											</tr>
+											<tr>
+												<td class="search-field">Access Date:</td>
+												<td class="search-value">
+													<input type="text" id="start_constraint" class="datepicker" placeholder="Start Date" />
+													to
+													<input type="text" id="end_constraint" class="datepicker" placeholder="End Date" />
+												</td>
+											</tr>
+											<tr>
+											<tr>
+												<td class="search-field">URL:</td>
+												<td class="search-value">
+													<input type="text" id="url_constraint" placeholder="www.news.com" />
+												</td>
+											</tr>
+											<tr>
+												<td class="search-field">Referrer:</td>
+												<td class="search-value">
+													<input type="text" id="referrer_constraint" placeholder="www.referrer.com" />
+												</td>
+											</tr>
+											<tr>
+												<td class="search-field">Search Terms:</td>
+												<td class="search-value">
+													<input type="text" id="search_constraint" placeholder="search term" />
+												</td>
+											</tr>
+											<tr>
+												<td class="search-field">Max Results:</td>
+												<td class="search-value">
+													<input type="text" id="count" placeholder="20" />
+												</td>
+											</tr>
+											<tr>
+												<td class="search-field">Sort By:</td>
+												<td class="search-value">
+													<select id="sort_by" name="sort_by">
+														<option value="fetch_date asc">Date (Earliest First)</option>
+														<option value="fetch_date desc">Date (Latest First)</option>
+														<option value="user_id asc">User ID (Alphabetical)</option>
+														<option value="user_id desc">User ID (Reverse Alphabetical)</option>
+													</select>
+												</td>
+											</tr>
+											<tr>
+												<td class="search-field">Flagged:</td>
+												<td class="search-value">
+													<input type="checkbox" id="flag_check" name="flag" /><br />
+												</td>
+											</tr>
+											<tr>
+												<td class="search-field"></td>
+												<td class="search-value">
+													<a href="#history" class="search_button" onclick="searchHistory();">Search</a>
+												</td>
+											</tr>											
+											<tr>
+												<td colspan="2"><a href="http://proxy.roxyproxy.org/solr/admin/">Raw Search Interface</a></td>
+											</tr>											
+										</form></table>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="section-header">
+										Search Results
+									</div>
+									<div class="section" id="search-results">
+										<p>No results yet.</p>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<div>
+							<div id="sidebar" />
+						</div>
+						<div>
+							<div id="meta-sidebar" />
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div id="footer">
+							Roxy: A Research Proxy<br />For questions &amp; support, please contact 
+							contact Ericka Menchen-Trevino: roxyhelp@gmail.com
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		</center>
+	</body>
+</html>
+		

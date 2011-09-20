@@ -1,0 +1,8 @@
+<div id="meta-sidebar">
+	<div class="section-header">Meta</div>
+	<div class="section">
+		<a href="/admin">Admin</a><br />
+		<a href="/search">Data Explorer</a><br />
+		<a href="/sessions">User Status</a>
+	</div>
+</div>

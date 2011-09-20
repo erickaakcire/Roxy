@@ -1,0 +1,181 @@
+<html> 
+	<head> 
+		<title>Roxy: Setting up Roxy</title> 
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" /> 
+		<script type="text/javascript" src="jquery.js"></script> 
+		<script type="text/javascript" src="cookie.js"></script> 
+		<script type="text/javascript" src="jquery.corner.js"></script> 
+		<script type="text/javascript" src="roxy.js"></script> 
+		<style type="text/css"> 
+			span.type 
+			{
+				font-family: "Courier New", monospace; 
+			}
+		</style> 
+	</head> 
+	<body> 
+		<center> 
+		<div id="content"> 
+			<table> 
+				<tr> 
+					<td colspan="2"> 
+						<div id="title"> 
+							Roxy: Setting up Roxy
+						</div> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td> 
+						<div class="section-header"> 
+							<a name="top"></a> Setting up Roxy
+						</div> 
+						<div class="section"> 
+							<p>Thank you for participating in this research. Roxy doesn’t need to be installed on your computer, it is a web application, so you need to login and set up communication with it. Setting up communication with Roxy should just take just a few minutes per the instructions below. Using Roxy is designed to be very simple and should not interrupt your normal web browsing except when it enables you to choose your privacy settings periodically. This gives you full control over what Roxy observes or logs.</p> 
+							<p>Please set up Roxy on every web browser you use on every computer you use if possible. Some people just use one web browser such as Internet Explorer, but other people use more than one such as Internet Explorer and Firefox. In the latter case you would need to set up Roxy in both Internet Explorer and Firefox.</p> 
+							<p>If you do not own one or more of the computers you use please ask the owner of the computer if you may set up Roxy on the computer. You may want to send them a link to Roxy’s main page so they can browse to Roxy's about page, use instructions and FAQ. Many organizations will not allow you to setup Roxy on their computers. You are welcome to give your organization my contact information and I can discuss the software with them. The research will be more complete if you are able to install Roxy on all of the computers you use, but if your organization does not allow installation for technical or business reasons that is an expected part of the project.</p> 
+							<p>Go through the setup instructions for each of the web browser(s) on the operating system(s) you use.</p> 
+							<a name="index"></a> 
+							<ul> 
+								<li><a href="#ie">Windows Internet Explorer</a></li> 
+								<li><a href="#winff">Windows Firefox</a></li> 
+								<li><a href="#winchrome">Windows Google Chrome</a></li> 
+								<li><a href="#safari">Macintosh Safari and Chrome</a></li> 
+								<li><a href="#macff">Macintosh Firefox</a></li> 
+								<li><a href="#linuxff">Linux Firefox</a></li> 
+								<li><a href="#iphone">iPhone</a></li>
+								<li><a href="#aol">AOL</a></li>
+								<li><a href="#other">Other computers or devices that connect to the web</a></li> 
+								<li><a href="#questions">Questions</a></li> 
+							</ul> 
+						</div> 
+						<div class="section-header"> 
+							<a name="ie"></a>Windows Internet Explorer
+						</div> 
+						<div class="section"> 
+							<ol> 
+								<li>Open Internet Explorer.</li> 
+								<li>On the main menu at the top of the window go to: Tools > Internet Options > Connections tab > LAN Settings<br/><br/><img src="IEConnections.gif"/></li> 
+								<li>Check "Use automatic configuration script" and type in: <span class="type">http://proxy.roxyproxy.org/proxy.pac</span> then uncheck the item that says "Automatically detect settings"<br/><br/><img src="IELanSettings.gif"/></li> 
+								<li>Choose OK to save the settings.</li> 
+								<li>Go to any website such as <a href="http://www.google.com/">google.com</a>. If Roxy has been configured correctly the Roxy home page will appear <a href="http://proxy.roxyproxy.org">http://proxy.roxyproxy.org/</a>. If it does not appear, please double check that you have completed these instructions.</li> 
+								<li>See <a href="http://proxy.roxyproxy.org/using">Using Roxy</a> for more information now that you have completed setup on this browser. Remember to configure any other web browsers you use.</li> 
+								<li>A message may appear on Internet Explorer that says, "Intranet settings are now turned off by default. Intranet settings are less secure than Internet settings. Click for options..." Roxy does not compromise your computer's security. This message can safely be ignored. Choose the option "Don’t show this message again"</li> 
+							</ol> 
+							<a href="#index">Back to the list of browsers</a> 
+						</div> 
+						<div class="section-header"> 
+							<a name="winff"></a>Windows Firefox
+						</div> 
+						<div class="section"> 
+							<ol> 
+								<li>Open Firefox.</li> 
+								<li>On the main menu at the top of Firefox go to: Tools > Options > At the top of the options window there is an Advanced tab > Network tab > Settings > Automatic proxy configuration URL. Type: <span class="type">http://proxy.roxyproxy.org/proxy.pac</span></li> 
+								<li>Choose OK to save the changes and exit the options window.</li> 
+								<li>Go to any website such as <a href="http://www.google.com/">google.com</a>. If Roxy has been configured correctly the Roxy home page will appear <a href="http://proxy.roxyproxy.org">http://proxy.roxyproxy.org/</a>. See <a href="http://proxy.roxyproxy.org/using">Using Roxy</a> for more information now that you have completed setup on this browser. Remember to configure any other web browsers you use.</li> 
+							</ol> 
+							<a href="#index">Back to the list of browsers</a> 
+						</div> 
+						<div class="section-header"> 
+							<a name="winchrome"></a>Windows Google Chrome
+						</div> 
+						<div class="section"> 
+							<p>The Chrome browser uses the same settings as Internet Explorer, so if you have already followed the instructions to setup Roxy with Internet Explorer you don't need to do anything. If you don't use Internet Explorer, please follow the instructions below.</p> 
+							<ol> 
+								<li>Open Chrome.</li> 
+								<li>On the top right of your browser Wrench (customize and control Google Chrome), options &gt; under the hood tab &gt; change proxy settings &gt; LAN Settings &gt; Uncheck "Automatically detect settings". Check "Use Automatic configuration script" > Type in: <span class="type">http://proxy.roxyproxy.org/proxy.pac</span></li> 
+								<li>Choose OK to save the changes.</li> 
+								<li>Go to any website such as <a href="http://www.google.com/">google.com</a>. If Roxy has been configured correctly the Roxy home page will appear <a href="http://proxy.roxyproxy.org">http://proxy.roxyproxy.org/</a>. See <a href="http://proxy.roxyproxy.org/using">Using Roxy</a> for more information now that you have completed setup on this browser. Remember to configure any other web browsers you use.</li> 
+							</ol> 
+							<a href="#index">Back to the list of browsers</a> 
+						</div> 
+						<div class="section-header"> 
+							<a name="safari"></a>Macintosh Safari and Chrome
+						</div> 
+						<div class="section"> 
+							<ol> 
+								<li>Open your System Preferences by going to the Apple Menu (The <img src="Apple.gif"/> on the top left-hand corner of your screen.) and choosing System Preferences.</li> 
+								<li>In the System Preferences go to Network. There you will see all of your connection types. On the example below this includes AirPort, Ethernet, FireWire, and NUVPN. In this case AirPort is highlighted because that is the current connection type.<br/><br/><img src="MacNetwork.gif" width="450" /></li> 
+								<li>Choose the Advanced button > Proxies tab. Check "Automatic proxy configuration." Type in <span class="type">http://proxy.roxyproxy.org/proxy.pac</span><br/><br/><img src="macsystem.gif" width="450" /></li> 
+								<li>Choose OK. This brings you back to your Network settings that may include several connection types (see step 2 above). Choose the next connection type, in this example it is called Ethernet. Repeat step 3 for each connection type (in the example image from step 2: AirPort, Ethernet, FireWire, NUVPN).</li> 
+								<li>When you have finished entering the proxy setting for each connection type, click Apply to save the changes.</li> 
+								<li>Go to any website such as <a href="http://www.google.com/">google.com</a>. If Roxy has been configured correctly the Roxy home page will appear <a href="http://proxy.roxyproxy.org">http://proxy.roxyproxy.org/</a>. See <a href="http://proxy.roxyproxy.org/using">Using Roxy</a> for more information now that you have completed setup on this browser. Remember to configure any other web browsers you use.</li> 
+							</ol> 
+							<a href="#index">Back to the list of browsers</a> 
+						</div> 
+						<div class="section-header"> 
+							<a name="macff"></a>Macintosh Firefox
+						</div> 
+						<div class="section"> 
+							<ol> 
+								<li>Open Firefox.</li> 
+								<li>On the menu at the top left of the screen go to: Firefox > Preferences > Advanced tab > Network. Under "Connection" hit "Settings"<br/><br/><img src="FirefoxDiagram.gif" width="450" /> </li> 
+								<li>Select the last option "Automatic proxy configuration URL" and type <span class="type">http://proxy.roxyproxy.org/proxy.pac</span></li> 
+								<li>Choose OK to save the changes. Exit Firefox’s preferences.</li> 
+								<li>Go to any website such as <a href="http://www.google.com/">google.com</a>. If Roxy has been configured correctly the Roxy home page will appear <a href="http://proxy.roxyproxy.org">http://proxy.roxyproxy.org/</a>. See <a href="http://proxy.roxyproxy.org/using">Using Roxy</a> for more information now that you have completed setup on this browser. Remember to configure any other web browsers you use.</li> 
+							</ol> 
+							<a href="#index">Back to the list of browsers</a> 
+						</div> 
+						<div class="section-header"> 
+							<a name="linuxff"></a>Linux Firefox
+						</div> 
+						<div class="section"> 
+							<ol> 
+								<li>Open Firefox.</li> 
+								<li>On the main menu at the top go to: Edit > Preferences > Advanced tab (top right) > Network. Under "Connection" hit "Settings" and choose the last option "Automatic proxy configuration URL" and type <span class="type">http://proxy.roxyproxy.org/proxy.pac</span></li> 
+								<li>Choose OK to save the changes. Exit Firefox’s preferences.</li> 
+								<li>Go to any website such as <a href="http://www.google.com/">google.com</a>. If Roxy has been configured correctly the Roxy home page will appear <a href="http://proxy.roxyproxy.org">http://proxy.roxyproxy.org/</a>. See <a href="http://proxy.roxyproxy.org/using">Using Roxy</a> for more information now that you have completed setup on this browser. Remember to configure any other web browsers you use.</li> 
+							</ol> 
+							<a href="#index">Back to the list of browsers</a> 
+						</div> 
+						<div class="section-header"> 
+							<a name="iphone"></a>iPhone
+						</div> 
+						<div class="section"> 
+							<p>The iPhone can be partially configured to use Roxy. Each WiFi network you connect to can be configured when you are connected to it. The iPhone cannot use Roxy when you are connected only to the AT&T mobile network.</p> 
+							<ol> 
+								<li>When you are connected to a WiFi network go to Settings > WiFi > then choose the WiFi network’s name. At the bottom of this screen it says "HTTP Proxy" choose Auto and type in <span class="type">http://proxy.roxyproxy.org/proxy.pac</span> in the URL field.</li> 
+								<li>Choose OK or Apply to save the settings.</li> 
+								<li>Go to any website such as <a href="http://www.google.com/">google.com</a>. If Roxy has been configured correctly the Roxy home page will appear <a href="http://proxy.roxyproxy.org">http://proxy.roxyproxy.org/</a>. See <a href="http://proxy.roxyproxy.org/using">Using Roxy</a> for more information now that you have completed setup on this browser. Remember to configure Roxy on each wireless network where you use your iPhone.</li> 
+							</ol> 
+							<a href="#index">Back to the list of browsers</a> 
+						</div> 
+						<div class="section-header"> 
+							<a name="aol"></a>AOL
+						</div> 
+						<div class="section"> 
+							<p>At this time the America Online service cannot be configured to work with Roxy. It would be helpful to the project if you could use another web browser during this study. If this is not possible please contact Ericka.</p>
+							<a href="#index">Back to the list of browsers</a> 
+						</div>
+						<div class="section-header"> 
+							<a name="other"></a>Other computers or devices that connect to the web
+						</div> 
+						<div class="section"> 
+							<p>Most devices that connect to the web allow you to specify proxy settings and anything that supports a proxy server can use Roxy. You can search online for help setting up a proxy on your device and use this URL for the automatic proxy configuration or PAC file: <span class="type">http://proxy.roxyproxy.org/proxy.pac</span></p> 
+							<a href="#index">Back to the list of browsers</a> 
+						</div> 
+						<div class="section-header"> 
+							<a name="questions"></a>Questions
+						</div> 
+						<div class="section"> 
+							<p>If you have any questions about the software or setup please email <a href="mailto:roxyhelp@gmail.com">roxyhelp@gmail.com</a>. Both Ericka Menchen-Trevino and Chris Karr of Audacious Software, the builder of Roxy, monitor this email so one of us will respond to you quickly if you email this address, depending on who can best resolve your issue.</p> 
+							<p>If you are having an urgent problem with Roxy please call Ericka Menchen-Trevino: 312-725-3681</p> 
+							<a href="#index">Back to the list of browsers</a> 
+						</div> 
+					</td> 
+					<td> 
+						<div id="sidebar" /> 
+					</td> 
+				</tr> 
+				<tr> 
+					<td colspan="2"> 
+						<div id="footer"> 
+							Roxy: A Research Proxy<br />For questions &amp; support, please contact 
+							contact Ericka Menchen-Trevino: roxyhelp@gmail.com
+						</div> 
+					</td> 
+				</tr> 
+			</table> 
+		</div> 
+		</center> 
+	</body> 
+</html> 

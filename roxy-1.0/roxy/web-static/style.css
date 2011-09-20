@@ -1,0 +1,386 @@
+a
+{
+	text-decoration: none;
+}
+
+body
+{
+	background-color: #919191;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+div#content
+{
+	background-color: #fff;
+	width: 768px;
+	font-size: 11pt;
+	font-weight: bold;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div.section-header
+{
+	background-color: #424242;
+	color: #fffeff;
+	font: bold 12pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding: 0.5em;
+	margin: 10px 10px 0;
+}
+
+input.field
+{
+	font: bold 12pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+div.subheader
+{
+	background-color: #438f2a;
+	color: #fffeff;
+	font: bold 12pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding: 0.5em;
+	margin: 10px 10px 0;
+}
+
+div.section
+{
+	padding: 0 0.5em 0.5em;
+	margin: 10px 10px 0;
+}
+
+div#title
+{
+	background-color: #424242;
+	margin: 10px;
+	padding: 0.5em;
+	color: #fffeff;
+	font: bold 24pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+div#status
+{
+	margin: 0 10px 10px;
+	font: 11pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+div#service-updates
+{
+	margin: 0 10px 10px;
+	font: 11pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+div#sidebar
+{
+	width: 200px;
+}
+
+div.button
+{
+	background-color: #424242;
+	text-decoration: none;
+	color: #fffeff;
+	display: inline-block;
+	text-align: center;
+	margin-left: auto;
+	padding: 10px;
+	width: 150px;
+}
+
+a.label
+{
+	color: #fffeff;
+	text-decoration: none;
+}
+
+div.field
+{
+	display: inline-block;
+	font-weight: bold;
+}
+
+td
+{
+	vertical-align: top;
+	padding: 0;
+	font-size: 11pt;
+	margin: 0;
+}
+
+table
+{
+	border-collapse: collapse;
+}
+
+ul
+{
+	list-style-type: none;
+	padding-left: 1em;
+}
+
+div#footer
+{
+	border-top: thin dotted #000;
+	padding: 1em 1em 0;
+	margin: 1em;
+	text-align: center;
+}
+
+td.header
+{
+	font-weight: bold;
+	padding-top: 1em;
+	text-align: center;
+}
+
+table.form
+{
+	margin-top: 1em;
+	width: 80%;
+}
+
+table.user-history
+{
+	padding-left: 1em;
+	width: 530px;
+}
+
+td.label
+{
+	text-align: right;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	width: 200px;
+}
+
+td.value
+{
+	padding-top: 0.5em;
+}
+
+a.guest_button
+{
+	background-color: #424242;
+	color: #ffffff;
+	padding: 5px;
+	width: 200px;
+	display: block;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+a.guest_button:hover
+{
+	background-color: #d5d5d5;
+	cursor: default;
+	color: #000;
+}
+
+a.regular_button
+{
+	background-color: #008f2a;
+	color: #ffffff;
+	padding: 5px;
+	width: 200px;
+	display: block;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+a.regular_button:hover
+{
+	background-color: #00ff24;
+	cursor: default;
+	color: #000;
+}
+
+
+a.update_button
+{
+	background-color: #008f2a;
+	color: #ffffff;
+	padding: 5px;
+	width: 150px;
+	display: inline-block;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+a.update_button:hover
+{
+	background-color: #00ff24;
+	cursor: default;
+	color: #000;
+}
+
+
+a.search_button
+{
+	background-color: #008f2a;
+	color: #ffffff;
+	padding: 5px;
+	width: 200px;
+	display: block;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+a.private_button
+{
+	margin-top: 0px;
+	background-color: #990806;
+	color: #ffffff;
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 200px;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+
+a.private_button:hover
+{
+	background-color: #fd0217;
+	cursor: default;
+}
+
+a.delete_button
+{
+	margin-top: 0px;
+	background-color: #990806;
+	color: #ffffff;
+	padding: 5px;
+	width: 150px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+}
+
+a.delete_button:hover
+{
+	background-color: #fd0217;
+	cursor: default;
+}
+
+input.search
+{
+	width: 400px;
+}
+
+td.search-field
+{
+	padding: 0 10px 10px 0;
+	text-align: right;
+}
+
+td.search-value
+{
+	padding: 0 10px 10px 0;
+	text-align: left;
+}
+
+input.datepicker
+{
+	width: 80px;
+}
+
+td.search-results
+{
+	padding-left: 10px;
+	border:  thin solid gray;
+}
+
+td.search-results
+{
+	border-collapse: collapse;
+	width: 600px;
+}
+
+span#original_page
+{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+td.history-site
+{
+	padding-right: 2em;
+	vertical-align: middle;
+}
+
+tr.history-site
+{
+	background-color: rgba(255,254,255,0);
+}
+
+tr.history-site:hover
+{
+	background-color: #eaeaea;
+}
+
+td.history-ops
+{
+	text-align: right;
+	float: right;
+	width: 125px;
+}
+
+a.delete-domain
+{
+	background-color: #910008;
+	color: #fffeff;
+	font-size: smaller;
+	width: 50px;
+	padding: 5px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+a.delete-domain:hover
+{
+	background-color: #fd0217;
+	cursor: default;
+}
+
+
+a.blacklist-domain
+{
+	background-color: #212121;
+	color: #fffeff;
+	font-size: smaller;
+	width: 50px;
+	padding: 5px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 5px;
+}
+
+a.blacklist-domain:hover
+{
+	background-color: #5e5e5e;
+	cursor: default;
+}
+
+td.refresh-sites
+{
+	font-size: smaller;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 10px;
+}

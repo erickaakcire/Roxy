@@ -1,0 +1,16 @@
+<div class="service-updates">
+	<p><strong>Roxy Status: July 5, 2010</strong></p>
+
+	<p>The Roxy configuation has changed slightly. Instead of manually entering the proxy server
+	host and port, please change that by configuring your system to use the new proxy automatic 
+	configuration file:</p>
+
+	<p align="center"><code>http://proxy.roxyproxy.org/proxy.pac</code></p>
+	
+	<p>Note: Roxy is currently under development and may contain a few rough edges. If you encounter a bug 
+	or other issue, please report it to</p>
+
+	<p align="center"><a href="mailto:roxy@audacious-software.com"><code>roxy@audacious-software.com</code></a></p>
+
+	<p>Thank you.</p>
+</div>

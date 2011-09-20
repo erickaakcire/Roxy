@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<div>
+	<table class="form">
+		<tr><td class="label">Current IP Address:</td><td class="value"><code>99.140.211.199</code></td></tr>
+		<tr><td class="label">Session Status:</td><td class="value">Inactive</td></tr>
+
+		<tr><td colspan="2" class="header"><div class="subheader">Start New Session</div></td></tr>
+		<tr><td class="label">User ID:</td><td class="value"><input class="field" id="userid" type="text"/></td></tr>
+		<tr>
+			<td class="label">Session Type:</td>
+			<td class="value">
+				<a href="#">Logged Session</a><br />
+				<a href="#">Private Session</a>
+			</td>
+		</tr>
+	</table>
+</div>

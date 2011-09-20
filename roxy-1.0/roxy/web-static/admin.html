@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<title>Roxy: Administration</title>
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="jquery.corner.js"></script>
+		<script type="text/javascript" src="roxy.js"></script>
+		<script type="text/javascript" src="roxy-admin.js"></script>
+	</head>
+	<body>
+		<center>
+		<div id="content">
+			<table>
+				<tr>
+					<td colspan="2">
+						<div id="title">
+							Roxy: Administration
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table>
+							<tr>
+								<td>
+									<div class="section-header">User Administration</div>
+									<div class="section">
+										<table>
+											<tr>
+												<td class="label" style="vertical-align: middle;">Username:</td>
+												<td class="value">
+													<input class="field" id="userid" type="text"/> <a href="#" onclick="fetchPassword()">(Password?)</a>
+												</td>
+											</tr>
+											<tr>
+												<td class="label" style="vertical-align: middle;">Password:</td>
+												<td class="value">
+													<input class="field" id="secret" type="password"/>
+												</td>
+											</tr>
+											<tr>
+												<td class="label"/>
+												<td class="value">
+													<a class="update_button" href="#" onclick="updateUser()">Update User</a>
+													<a class="delete_button" href="#" onclick="deleteUser()">Delete User</a>
+												</td>
+											</tr>
+										</table>
+									</div>
+									<div class="section-header">
+										Admin Service Updates
+									</div>
+									<div id="service-updates"></div>
+								</td>
+							</tr>
+						</table>
+					</td>
+					<td>
+						<div>
+							<div id="sidebar" />
+						</div>
+						<div>
+							<div id="meta-sidebar" />
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div id="footer">
+							Roxy: A Research Proxy<br />For questions &amp; support, please contact 
+							contact Ericka Menchen-Trevino: roxyhelp@gmail.com
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		</center>
+	</body>
+</html>
+		
